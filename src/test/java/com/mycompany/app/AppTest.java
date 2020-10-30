@@ -8,7 +8,7 @@ import org.junit.After;
 import static org.junit.Assert.*;
 
 /**
- * Unit test for simple App.
+ * Unit test for simple App. Fo me.
  */
 public class AppTest
 {
@@ -29,6 +29,7 @@ public class AppTest
         }
     }
 
+
     @Test
     public void testAppMain()
     {
@@ -39,6 +40,7 @@ public class AppTest
             fail("\"message\" is not \"Hello World!\"");
         }
     }
+
 
     @After
     public void cleanUpStreams() {
